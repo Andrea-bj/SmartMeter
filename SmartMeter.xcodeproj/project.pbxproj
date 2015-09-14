@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209569631BA657B500D65BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209569621BA657B500D65BD8 /* main.m */; };
+		209569661BA657B500D65BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209569651BA657B500D65BD8 /* AppDelegate.m */; };
+		209569691BA657B500D65BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209569681BA657B500D65BD8 /* ViewController.m */; };
+		2095696C1BA657B500D65BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2095696A1BA657B500D65BD8 /* Main.storyboard */; };
+		2095696E1BA657B500D65BD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2095696D1BA657B500D65BD8 /* Images.xcassets */; };
+		209569711BA657B500D65BD8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2095696F1BA657B500D65BD8 /* LaunchScreen.xib */; };
+		2095697D1BA657B500D65BD8 /* SmartMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2095697C1BA657B500D65BD8 /* SmartMeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209569771BA657B500D65BD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209569551BA657B400D65BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2095695C1BA657B400D65BD8;
+			remoteInfo = SmartMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2095695D1BA657B400D65BD8 /* SmartMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209569611BA657B500D65BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209569621BA657B500D65BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209569641BA657B500D65BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209569651BA657B500D65BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		209569671BA657B500D65BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209569681BA657B500D65BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2095696B1BA657B500D65BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2095696D1BA657B500D65BD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		209569701BA657B500D65BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		209569761BA657B500D65BD8 /* SmartMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2095697B1BA657B500D65BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2095697C1BA657B500D65BD8 /* SmartMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartMeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2095695A1BA657B400D65BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209569731BA657B500D65BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209569541BA657B400D65BD8 = {
+			isa = PBXGroup;
+			children = (
+				2095695F1BA657B400D65BD8 /* SmartMeter */,
+				209569791BA657B500D65BD8 /* SmartMeterTests */,
+				2095695E1BA657B400D65BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2095695E1BA657B400D65BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2095695D1BA657B400D65BD8 /* SmartMeter.app */,
+				209569761BA657B500D65BD8 /* SmartMeterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2095695F1BA657B400D65BD8 /* SmartMeter */ = {
+			isa = PBXGroup;
+			children = (
+				209569641BA657B500D65BD8 /* AppDelegate.h */,
+				209569651BA657B500D65BD8 /* AppDelegate.m */,
+				209569671BA657B500D65BD8 /* ViewController.h */,
+				209569681BA657B500D65BD8 /* ViewController.m */,
+				2095696A1BA657B500D65BD8 /* Main.storyboard */,
+				2095696D1BA657B500D65BD8 /* Images.xcassets */,
+				2095696F1BA657B500D65BD8 /* LaunchScreen.xib */,
+				209569601BA657B400D65BD8 /* Supporting Files */,
+			);
+			path = SmartMeter;
+			sourceTree = "<group>";
+		};
+		209569601BA657B400D65BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209569611BA657B500D65BD8 /* Info.plist */,
+				209569621BA657B500D65BD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209569791BA657B500D65BD8 /* SmartMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2095697C1BA657B500D65BD8 /* SmartMeterTests.m */,
+				2095697A1BA657B500D65BD8 /* Supporting Files */,
+			);
+			path = SmartMeterTests;
+			sourceTree = "<group>";
+		};
+		2095697A1BA657B500D65BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2095697B1BA657B500D65BD8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2095695C1BA657B400D65BD8 /* SmartMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209569801BA657B500D65BD8 /* Build configuration list for PBXNativeTarget "SmartMeter" */;
+			buildPhases = (
+				209569591BA657B400D65BD8 /* Sources */,
+				2095695A1BA657B400D65BD8 /* Frameworks */,
+				2095695B1BA657B400D65BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMeter;
+			productName = SmartMeter;
+			productReference = 2095695D1BA657B400D65BD8 /* SmartMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209569751BA657B500D65BD8 /* SmartMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209569831BA657B500D65BD8 /* Build configuration list for PBXNativeTarget "SmartMeterTests" */;
+			buildPhases = (
+				209569721BA657B500D65BD8 /* Sources */,
+				209569731BA657B500D65BD8 /* Frameworks */,
+				209569741BA657B500D65BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209569781BA657B500D65BD8 /* PBXTargetDependency */,
+			);
+			name = SmartMeterTests;
+			productName = SmartMeterTests;
+			productReference = 209569761BA657B500D65BD8 /* SmartMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209569551BA657B400D65BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Accelerator;
+				TargetAttributes = {
+					2095695C1BA657B400D65BD8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					209569751BA657B500D65BD8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2095695C1BA657B400D65BD8;
+					};
+				};
+			};
+			buildConfigurationList = 209569581BA657B400D65BD8 /* Build configuration list for PBXProject "SmartMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209569541BA657B400D65BD8;
+			productRefGroup = 2095695E1BA657B400D65BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2095695C1BA657B400D65BD8 /* SmartMeter */,
+				209569751BA657B500D65BD8 /* SmartMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2095695B1BA657B400D65BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2095696C1BA657B500D65BD8 /* Main.storyboard in Resources */,
+				209569711BA657B500D65BD8 /* LaunchScreen.xib in Resources */,
+				2095696E1BA657B500D65BD8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209569741BA657B500D65BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209569591BA657B400D65BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209569691BA657B500D65BD8 /* ViewController.m in Sources */,
+				209569661BA657B500D65BD8 /* AppDelegate.m in Sources */,
+				209569631BA657B500D65BD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209569721BA657B500D65BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2095697D1BA657B500D65BD8 /* SmartMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209569781BA657B500D65BD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2095695C1BA657B400D65BD8 /* SmartMeter */;
+			targetProxy = 209569771BA657B500D65BD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2095696A1BA657B500D65BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2095696B1BA657B500D65BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2095696F1BA657B500D65BD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209569701BA657B500D65BD8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2095697E1BA657B500D65BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2095697F1BA657B500D65BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209569811BA657B500D65BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		209569821BA657B500D65BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		209569841BA657B500D65BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMeter.app/SmartMeter";
+			};
+			name = Debug;
+		};
+		209569851BA657B500D65BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartMeter.app/SmartMeter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209569581BA657B400D65BD8 /* Build configuration list for PBXProject "SmartMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2095697E1BA657B500D65BD8 /* Debug */,
+				2095697F1BA657B500D65BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209569801BA657B500D65BD8 /* Build configuration list for PBXNativeTarget "SmartMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209569811BA657B500D65BD8 /* Debug */,
+				209569821BA657B500D65BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		209569831BA657B500D65BD8 /* Build configuration list for PBXNativeTarget "SmartMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209569841BA657B500D65BD8 /* Debug */,
+				209569851BA657B500D65BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209569551BA657B400D65BD8 /* Project object */;
+}
